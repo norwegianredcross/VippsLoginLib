@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VippsLoginLib/static/css/main.3e388d2d.css",
+    "main.js": "/VippsLoginLib/static/js/main.4a5090ea.js",
+    "index.html": "/VippsLoginLib/index.html",
+    "main.3e388d2d.css.map": "/VippsLoginLib/static/css/main.3e388d2d.css.map",
+    "main.4a5090ea.js.map": "/VippsLoginLib/static/js/main.4a5090ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e388d2d.css",
+    "static/js/main.4a5090ea.js"
+  ]
+}
