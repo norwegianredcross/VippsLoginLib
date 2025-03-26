@@ -248,7 +248,7 @@ body {
 .footer-links {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 4px;
 }
 
 .footer-link {

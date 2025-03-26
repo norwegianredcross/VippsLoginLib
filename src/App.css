@@ -391,7 +391,7 @@ body {
   .footer-links {
     flex-direction: row;
     align-items: flex-start;
-    gap: 24px;
+    gap: 4px;
     margin-bottom: 24px;
     justify-content: flex-start;
   }
