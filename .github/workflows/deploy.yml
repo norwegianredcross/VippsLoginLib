@@ -28,9 +28,14 @@ jobs:
         run: npm run build
         env:
           PUBLIC_URL: /VippsLoginLib
+          REACT_APP_VERSION: "${{ github.sha }}"
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
           branch: gh-pages
+          clean: true
+          clean-exclude: |
+            .gitignore
+          commit-message: "Deploy commit ${{ github.sha }} [skip ci]"
