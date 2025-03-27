@@ -44,4 +44,4 @@ npm install
 npm start
 ```
 
-The application will be available at http://localhost:3000.
+The application is  available at https://norwegianredcross.github.io/VippsLoginLib/
