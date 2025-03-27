@@ -12,8 +12,8 @@ const Footer: React.FC<FooterProps> = () => {
       <Divider className="footer-divider" aria-hidden="true" />
       <div className="footer-content">
         <nav className="footer-links" aria-label="Footer navigasjon">
-          <Link href="/personvern" className="footer-link">Personvern</Link>
-          <Link href="/informasjonskapsler" className="footer-link">Informasjonskapsler</Link>
+          <Link href="https://www.mittrodekors.no/Account/Login/ExternalAuthenticationFailed" className="footer-link" target="_blank" rel="noopener noreferrer">Personvern</Link>
+          <Link href="https://www.mittrodekors.no/informasjonskapsler" className="footer-link" target="_blank" rel="noopener noreferrer">Informasjonskapsler</Link>
         </nav>
         
         <ContactInfo />

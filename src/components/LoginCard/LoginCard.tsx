@@ -33,7 +33,7 @@ const LoginCard: React.FC<LoginCardProps> = () => {
         </div>
 
         <div className="help-body">
-          <Heading level={3} className="login-subtitle" data-size="xs">Andre alternativer</Heading>
+        <Heading level={2} id="vipps-login-title" className="login-title" data-size="md">Andre alternativer</Heading>
           <Paragraph className="login-description">
             Bruk Okta-appen eller brukernavnet og passordet du har fått fra
             oss tidligere.
@@ -44,7 +44,7 @@ const LoginCard: React.FC<LoginCardProps> = () => {
       <Divider className="help-divider" />
       
       <div className="help-container">
-        <Link href="/hjelp" className="help-link" aria-label="Trenger du hjelp? Åpner i ny fane" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.rodekors.no/om/kontakt/frivilligservice/" className="help-link" aria-label="Trenger du hjelp? Åpner i ny fane" target="_blank" rel="noopener noreferrer">
           <span className="help-text">Trenger du hjelp?</span>
           <ExternalLinkIcon className="external-link-icon" />
         </Link>
