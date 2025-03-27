@@ -52,14 +52,13 @@ body {
   align-self: stretch;
 }
 
-/* Title section - Updated 2025.03.27 */
+/* Title section */
 .page-header {
   display: flex;
-  padding: 24px 64px;
+  padding: 16px 64px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
-  border-bottom: 2px solid #96171a;
+  gap: 8px;
 }
 
 .title-container {
