@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VippsLoginLib/static/css/main.45791224.css",
-    "main.js": "/VippsLoginLib/static/js/main.7b1c97d3.js",
+    "main.css": "/VippsLoginLib/static/css/main.bb2e177a.css",
+    "main.js": "/VippsLoginLib/static/js/main.9f016cc2.js",
     "static/media/logoRedcross.svg": "/VippsLoginLib/static/media/logoRedcross.4b0e5e23aa7e0dd2b7f6a0a4a64071f9.svg",
     "index.html": "/VippsLoginLib/index.html",
-    "main.45791224.css.map": "/VippsLoginLib/static/css/main.45791224.css.map",
-    "main.7b1c97d3.js.map": "/VippsLoginLib/static/js/main.7b1c97d3.js.map"
+    "main.bb2e177a.css.map": "/VippsLoginLib/static/css/main.bb2e177a.css.map",
+    "main.9f016cc2.js.map": "/VippsLoginLib/static/js/main.9f016cc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.45791224.css",
-    "static/js/main.7b1c97d3.js"
+    "static/css/main.bb2e177a.css",
+    "static/js/main.9f016cc2.js"
   ]
 }
