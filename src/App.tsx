@@ -5,8 +5,8 @@ import './App.css';
 // Import components
 import Header from './components/Header';
 import Footer from './components/Footer';
-import LoginCard from './components/LoginCard';
-import OktaWidget from './components/FormCard';
+import HelpCard from './components/helpCard';
+import OktaWidget from './components/oktaWidget';
 import { PageContainer } from './components/custom';
 
 const App: React.FC = () => {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
       </div>
 
       <main className="help-card">
-        <LoginCard />
+        <HelpCard />
         <OktaWidget />
       </main>
 

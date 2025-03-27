@@ -18,9 +18,12 @@ This project implements a login page for the Norwegian Red Cross using the Red C
 
 ### Custom Components Created
 - `PageContainer`: A layout component that provides consistent page structure using Red Cross design tokens
-- `TopBar`: A header component with logo and navigation
-- `ContactInfo`: A component for displaying contact information
+- `Header`: A header component with logo and navigation
+- `Footer`: A footer component with contact information
+- `HelpCard`: A component displaying information about Vipps login options and help resources
+- `OktaWidget`: A component for alternative login methods (Okta)
 - `Badge`: A component for displaying badges (e.g., "New") using Red Cross colors
+- `ContactInfo`: A component for displaying contact information
 
 ### Design Tokens Used
 - Colors: Using Red Cross color tokens (e.g., --ds-color-primary-background-tinted)
@@ -33,10 +36,17 @@ This project implements a login page for the Norwegian Red Cross using the Red C
 - Custom components styled using Red Cross design tokens
 - Minimal hardcoded values - most styling comes from design tokens
 
+### Recent Updates
+- **Component Renaming (March 2025)**:
+  - Renamed `FormCard` component to `OktaWidget` to better reflect its purpose as an alternative login widget
+  - Renamed `LoginCard` component to `HelpCard` to better represent its function as a help and information card
+  - Updated all imports and references throughout the codebase
+
 ### Future Improvements
 - Create more reusable components for common patterns
 - Further refine responsive behavior using Digdir responsive utilities
 - Add TypeScript interfaces for custom components
+- Enhance the OktaWidget component with actual Okta integration
 
 ## Running the Project
 ```
