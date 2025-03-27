@@ -63,12 +63,12 @@ body {
 
 .title-container {
   display: flex;
-  max-width: 1000px;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
   width: 100%;
   padding: 0;
+  max-width: 100%;
 }
 
 .page-title {
@@ -98,6 +98,13 @@ body {
   margin-bottom: 40px;
   box-sizing: border-box;
   max-width: 100%;
+}
+
+/* Center main content in desktop views */
+@media (min-width: 992px) {
+  .help-card {
+    justify-content: center;
+  }
 }
 
 /* HelpCard component */
